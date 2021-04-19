@@ -1,6 +1,6 @@
 Phase 4 Contexts
 ---
-We accidentally left the scope tests `TeamQuiz` in for `team_quiz_test.rb` and this is now causing some confusion.  Let me answer some questions that have come up:
+We accidentally left the scope tests for `TeamQuiz` in `team_quiz_test.rb` and this is now causing some confusion.  Let me answer some questions that have come up:
 
 1. You can use these for your own tests if you want, but you need to transfer these scope tests to `team_quiz_scope_test.rb`.  We also suggest you remove these six tests from `team_quiz_test.rb`.  But if you want to write your own set of tests, that is totally fine too (just remove ours).
 
